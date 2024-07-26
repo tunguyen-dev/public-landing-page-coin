@@ -79,7 +79,7 @@
  ***/
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Bai Jamjuree", sans-serif;
   font-size: 16px;
   color: #6D747C;
   line-height: 1.5em;
@@ -94,6 +94,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: #3772FF;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
 a:hover,
@@ -121,7 +122,7 @@ h4,
 h5,
 h6 {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   font-weight: 600;
   margin: 0 0 15px;
   background: none;
@@ -157,7 +158,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 textarea {
@@ -240,9 +241,25 @@ textarea {
 .spv {
   padding-top: 300px;
 }
-
+.sub_spv{
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.sub_spv_v2{
+  margin: 0 auto;
+  text-align: center;
+}
+.fa-angle-right{
+  margin-right: 10px;
+}
+.fa-angle-left{
+  margin-left: 10px;
+}
 .heading_spv {
   text-align: center;
+}
+.spv_join_us{
+
 }
 
 .text-white {
@@ -251,6 +268,9 @@ textarea {
 
 .text-small {
   font-size: 12px;
+}
+.text-heading{
+  font-size: 72px;
 }
 
 /* .text-heading{
@@ -428,17 +448,31 @@ textarea {
 }
 
 .token_main .token_title {
-  border-bottom: 0.5px solid tan;
+  /* border-bottom: 0.5px solid tan; */
   /* justify-content: flex-start; */
   padding-bottom: 30px;
+}
+.token_content img{
+  margin-top: -200px;
+}
+.token_sub{
+  text-align: center;
+}
+.token_main .token_title .token_title_left{
+  text-align: center;
 }
 
 .token_main .token_title .token_title_left span {
   font-size: 72px;
   /* width: 70% !important; */
   color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
 }
-
+#Tokenomics{
+  background-image: url('../images/remote/token/bg.png');
+  margin-top: 50px;
+}
 .token_main .token_title .token_title_right {
   align-content: center;
 
@@ -449,12 +483,14 @@ textarea {
 }
 
 .token_main .token_content {
-  margin-top: 60px;
+  margin-top: 70px;
+  text-align: center;
 }
 
 /* START ROADMAP */
 .fz12 {
   font-size: 12px;
+  font-weight: normal;
 }
 
 /* .roadmap{
@@ -472,11 +508,17 @@ textarea {
   /* background-position: 515px -112px; */
   background-position: center;
 }
+.fa-circle{
+  font-size: 8px;
+}
+.roadmap_title{
+  font-size: 72px;
+}
 
 .roadmap_spv_box {
   border: 1px solid #ccc;
   padding: 30px;
-  border-radius: 30px;
+  border-radius: 40px;
   background-image: linear-gradient(to bottom, #4B4844, #363330, #1F1C17);
   margin-bottom: 30px;
 }
@@ -2272,7 +2314,7 @@ body.home-one h6 {
 }
 
 .home-two .main-header .nav-toggler button {
-  color: #48DCA8;
+  color: #ffffff;
 }
 
 .home-four .main-header .nav-toggler button {
@@ -2605,7 +2647,7 @@ body.visible-sidebar {
   position: relative;
   display: block;
   border-top: 1px solid rgba(255, 255, 255, 0.20);
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 .hidden-bar .side-menu ul li {

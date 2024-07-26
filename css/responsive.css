@@ -557,6 +557,16 @@
 	.main-header .main-box {
 		display: block;
 	}
+	.nav-box{
+		margin-top: 15px;
+	 }
+	 .banner_img img {
+		text-align: center;
+		/* margin-top: -500px; */
+		/* height: 800px; */
+		width: auto;
+		margin-top: -100px;
+	  }
 
 }
 
@@ -569,9 +579,13 @@
 }
 
 @media only screen and (max-width: 991px) {
-	.token_content {
-		width: 600px !important;
+	.token_content img {
+		margin-top: -100px;
+		width: 700px !important;
 	}
+	.nav-box{
+		margin-top: 15px;
+	 }
 
 	.mining {
 		text-align: center;
@@ -2241,6 +2255,10 @@
 	.row_des {
 		display: block;
 	}
+	.nav-box{
+		margin-top: 15px;
+	 }
+	 
 
 }
 
@@ -2497,9 +2515,12 @@
 		margin: 0 5px 12px;
 	}
 
-	.main-header .header-upper .links-box {
+	/* .main-header .header-upper .links-box {
 		display: none;
-	}
+	} */
+	 .nav-box{
+		margin-top: 15px;
+	 }
 
 	.roadmap-block-six .text {
 		font-size: 16px;
@@ -2629,8 +2650,38 @@
 		align-items: center;
 		align-content: center;
 	}
-	
-
+	.banner_img img {
+		text-align: center;
+		width: auto;
+		margin-top: -200px;
+	  }
+	.contact_1{
+		font-size: 7px;
+	}
+	.contact_2{
+		font-size: 9px;
+	}
+	.sub_spv{
+		padding: 0;
+	}
+	.text-heading {
+		font-size: 30px;
+	}
+	.main_mining_content{
+		align-content: center;
+	}
+	.main_mining_right_icon div img {
+		height: 25px;
+	}
+	.roadmap_title{
+		font-size: 48px;
+	}
+	.accordion-box .block .acc-btn{
+		font-size: 18px;
+	}
+	.accordion-box .block .content .text{
+		font-size: 14px;
+	}
 	.icon_footer {
 		margin-top: 10px;
 	}
@@ -2661,7 +2712,7 @@
 		padding-right: 2px;
 	}
 	#mining_span_change{
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 	.main_mining_right_icon {
@@ -2678,10 +2729,10 @@
 		justify-content: space-between;
 	}
 
-	.main_mining_right_icon img {
+	/* .main_mining_right_icon img {
 		height: 40px;
 		width: 40px !important;
-	}
+	} */
 	#mining_img {
 		height: 40px;
 	}
@@ -2722,13 +2773,16 @@
 		text-align: center;
 		margin-bottom: 15px;
 	}
+	.token_content img{
+		margin-top: -30px;
+	  }
 
 	.token_main {
 		padding: 10px 15px;
 	}
 
 	.token_content {
-		width: 300px !important;
+		width: 400px !important;
 		margin: 0 auto !important;
 	}
 
