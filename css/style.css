@@ -261,7 +261,12 @@ textarea {
 .spv_join_us{
 
 }
-
+.spv_join_us a{
+  color: #fff;
+}
+.spv_whitepapper a{
+  color: #fff;
+}
 .text-white {
   color: #ffffff !important;
 }
