@@ -276,6 +276,7 @@ textarea {
 }
 .text-heading{
   font-size: 72px;
+  margin-top: 30px;
 }
 
 /* .text-heading{
@@ -455,10 +456,22 @@ textarea {
 .token_main .token_title {
   /* border-bottom: 0.5px solid tan; */
   /* justify-content: flex-start; */
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
+}
+.token_title{
+  display: block;
+}
+.token_title_text{
+  font-size: 72px;
+  text-align: center;
 }
 .token_content img{
-  margin-top: -200px;
+  margin-top: -160px;
+}
+.token_content{
+  text-align: center;
+  margin-top: 30px;
+
 }
 .token_sub{
   text-align: center;
@@ -467,7 +480,7 @@ textarea {
   text-align: center;
 }
 
-.token_main .token_title .token_title_left span {
+.token_main .token_title .token_title_left h1 {
   font-size: 72px;
   /* width: 70% !important; */
   color: #ffffff;
@@ -601,12 +614,17 @@ textarea {
 }
 
 .contact_1 {
-  animation: change 3s ease infinite;
+  color: #F38B10;
+}
+.contact_1:hover{
+  color: #ffffff;
 }
 .contact_2{
-  animation: change 3s ease infinite;
+  color: #F38B10;
 }
-
+.contact_2:hover{
+  color: #ffffff;
+}
 @keyframes change {
   0% {
     color: gold;
@@ -17820,7 +17838,10 @@ body.home-nine .scroll-to-top img {
 ====================================================================
 
 ***/
-
+.row_roadmap{
+  /* margin-top: 20px; */
+  padding-top: 20px;
+}
 .roadmap-eight {
   position: relative;
   padding: 160px 0px;

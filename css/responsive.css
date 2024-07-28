@@ -180,6 +180,9 @@
 	.main-header .nav-toggler {
 		display: block;
 	}
+	.text-heading{
+		margin-top: 40px;
+	}
 
 
 	.main-header .nav-outer {
@@ -582,6 +585,9 @@
 	.token_content img {
 		margin-top: -100px;
 		width: 700px !important;
+	}
+	.text-heading{
+		font-size: 61px;
 	}
 	.nav-box{
 		margin-top: 15px;
@@ -2665,7 +2671,8 @@
 		padding: 0;
 	}
 	.text-heading {
-		font-size: 30px;
+		font-size: 31px;
+		margin-top: 40px;
 	}
 	.main_mining_content{
 		align-content: center;
@@ -2674,7 +2681,12 @@
 		height: 25px;
 	}
 	.roadmap_title{
-		font-size: 48px;
+		font-size: 46px;
+	}
+	.token_title_text{
+		font-size: 46px;
+		font-weight: normal;
+		text-align: left;
 	}
 	.accordion-box .block .acc-btn{
 		font-size: 18px;
@@ -2774,7 +2786,7 @@
 		margin-bottom: 15px;
 	}
 	.token_content img{
-		margin-top: -30px;
+		margin-top: 10px;
 	  }
 
 	.token_main {
@@ -2784,6 +2796,7 @@
 	.token_content {
 		width: 400px !important;
 		margin: 0 auto !important;
+		margin-top: 0;
 	}
 
 	.main-box {
