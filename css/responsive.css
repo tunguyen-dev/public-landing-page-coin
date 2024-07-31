@@ -2666,6 +2666,9 @@
 	.donors_main{
 		padding-bottom: 40px !important;
 	}
+	.roadmap_des{
+		background-image: none;
+	}
 	.banner_img img {
 		text-align: center;
 		width: auto;
