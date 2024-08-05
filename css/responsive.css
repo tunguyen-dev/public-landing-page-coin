@@ -2694,11 +2694,11 @@
 		height: 25px;
 	}
 	.roadmap_title{
-		font-size: 46px;
+		font-size: 38px !important;
 	}
 	.token_title_text{
-		font-size: 46px;
-		font-weight: normal;
+		font-size: 38px !important;
+		font-weight: bold;
 		text-align: left;
 	}
 	.accordion-box .block .acc-btn{

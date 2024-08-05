@@ -697,7 +697,7 @@
         });
         document.querySelectorAll('img[data-url]').forEach(img => {
             img.addEventListener('click', function() {
-                window.location.href = this.getAttribute('data-url');
+                window.open(this.getAttribute('data-url'), '_blank');
             });
         });
     </script>
