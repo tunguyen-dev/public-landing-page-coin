@@ -95,6 +95,9 @@
         font-weight: 700;
         font-style: italic;
     }
+    .icon_footer1:hover , .icon_footer2:hover, .icon_footer_div:hover {
+        cursor: pointer;
+    }
 </style>
 
 <body class="home-two">
@@ -330,7 +333,7 @@
                     <div class="row row_roadmap">
                         <div class="col-12 col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-up"
                             data-aos-duration="2000">
-                            <h1 style="font-weight: normal;" class="text-white roadmap_title">Roadmap</h1>
+                            <h1 style="font-weight: bold;" class="text-white roadmap_title">Roadmap</h1>
                             <h6 class="text-white fz12">Unlock a new era of data ownership with SPV Ordinals! </h6>
                             <h6 class="text-white fz12" style="line-height: 35px;">The roadmap paves the way for a
                                 future
@@ -600,12 +603,13 @@
                     <div class="text-white col-12 col-lg-8 col-md-8 col-sm-8 copyright ">Copyright
                         SPV 2024</div>
                     <div class="row icon_footer col-12 col-lg-2 col-md-2 col-sm-2 social-links">
-                        <div class="icon_footer_div_1 "><img class="icon_footer1" src="./images/remote/footer/Vector 1.png"
-                                alt=""></div>
-                        <div class="text-white "><img class="icon_footer2" src="./images/remote/footer/x.png" alt="">
+                        <div class="icon_footer_div_1 ">
+                            <img class="icon_footer1" src="./images/remote/footer/Vector 1.png" alt="" data-url="https://t.me/SPVOrdinal">
                         </div>
-                        <div class="icon_footer_div "><img class="icon_footer3" src="./images/remote/footer/Polygon 5.png"
-                                alt=""></div>
+                        <div class="text-white ">
+                            <img class="icon_footer2" src="./images/remote/footer/x.png" alt="" data-url="https://x.com/spvordinal?s=21">
+                        </div>
+                        <div class="icon_footer_div "><img class="icon_footer3" src="./images/remote/footer/Polygon 5.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -690,6 +694,11 @@
             img.src = './images/remote/mining/4.png';
             document.getElementById('mining_span_change').innerText = 'Transfer';
 
+        });
+        document.querySelectorAll('img[data-url]').forEach(img => {
+            img.addEventListener('click', function() {
+                window.location.href = this.getAttribute('data-url');
+            });
         });
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

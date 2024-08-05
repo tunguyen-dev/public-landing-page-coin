@@ -462,8 +462,9 @@ textarea {
   display: block;
 }
 .token_title_text{
-  font-size: 72px;
+  font-size: 62px;
   text-align: center;
+  font-weight: bold;
 }
 .token_content img{
   margin-top: -160px;
@@ -530,7 +531,7 @@ textarea {
   font-size: 8px;
 }
 .roadmap_title{
-  font-size: 72px;
+  font-size: 62px;
 }
 
 .roadmap_spv_box {
